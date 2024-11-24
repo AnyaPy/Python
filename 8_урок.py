@@ -43,7 +43,10 @@ class MainWindow(QMainWindow):
 
     def get_values(self):
         name = self.username_input.text()
+        password = self.password_input.text()
         print(name)
+        print(password)
+
 
 
 
